@@ -152,4 +152,4 @@ async def on_message_delete(message: discord.Message):
         else:
             deletedmessages.append(f"{message.author.display_name} ({message.author.name}) in <#{message.channel.id}>: {message.content}")
 
-client.run("MTI5OTE2NjM1NjQ1Njg2OTkzMA.GqxA4d.75a4iF1j7bFgIwolRlaJ6HUR8OvxYj8L7RRpek")
+client.run("$TOKEN")
